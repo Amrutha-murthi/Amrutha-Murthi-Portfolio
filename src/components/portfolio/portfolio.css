@@ -10,6 +10,8 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio__item:hover {
@@ -20,11 +22,18 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 30%;
+    height: 200px;
+}
+
+.portfolio__item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .portfolio__item h3 {
-    margin: 2rem 0;
+    margin: 1.2rem 0;
+    color: var(--color-primary);
 }
 
 .portfolio__item p {
@@ -32,14 +41,30 @@
     font-size: 0.9rem;
 }
 
+.portfolio__item-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.technology-tag {
+    background: var(--color-primary-variant);
+    color: var(--color-white);
+    padding: 0.3rem 0.7rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 2rem; 
+    margin-top: auto;
 }
 
 .portfolio__item-content {
-    height: 50%;
+    flex: 1;
 }
 
 @media screen and (max-width: 1024px){

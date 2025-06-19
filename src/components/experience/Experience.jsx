@@ -8,10 +8,44 @@ const Experience = () => {
       <h5>The Skills I Have</h5>
       <h2>Skills</h2>
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Front-end Development</h3>
+        <div className="experience__ai">
+          <h3>AI/ML Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Python</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Computer Vision</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>NLP</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>TensorFlow</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Pandas</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>NumPy</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Matplotlib</h4>
+            </article>
+          </div>
+        </div>
+        
+        <div className="experience__web">
+          <h3>Web Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>HTML</h4>
             </article>
@@ -25,54 +59,23 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React</h4>
+              <h4>MERN Stack</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Redux</h4>
+              <h4>SQL</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>SCSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Tailwind</h4>
+              <h4>STT</h4>
             </article>
           </div>
         </div>
-        <div className="experience__backend">
-          <h3>Back-end Development</h3>
-          <div className="experience__content">
-          <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Ruby on Rails</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PostgreSQL</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Swagger</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>RSpec</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
-            </article>
-          </div>
-        </div>
+        
+       
       </div>
     </section>
   )
 }
 
-export default Experience
+export default Experience;
