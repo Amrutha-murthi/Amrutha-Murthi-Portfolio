@@ -43,14 +43,16 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'AI Voice Assistant for Real Estate',
-      img: IMG4,
+      title: 'Car Park Counter - CV',
+      img: IMG7,
       description:
-        'Developed using ElevenLabs TTS/STT with RAG and Google Gemini for intelligent, context-aware voice responses about real estate properties in Tamil language.',
-      technologies: ['Python', 'Gemini', 'RAG', 'ElevenLabs'],
+        'Developed a real-time car park counter using Computer Vision (CV) to detect and track available parking spaces in a parking lot. The system processes video feeds to identify occupied and vacant parking spots, providing a live count of available spaces.',
+      technologies: ['Opencv(cv2)', 'Numpy', 'Pickle', 'cvZone'],
       link: '#',
       github: '#',
     },
+   
+   
     {
       id: 5,
       title: 'Book Recommender System',
@@ -61,8 +63,18 @@ const Portfolio = () => {
       link: '#',
       github: '#',
     },
+     {
+        id: 4,
+      title: 'AI Voice Assistant for Real Estate',
+      img: IMG4,
+      description:
+        'Developed using ElevenLabs TTS/STT with RAG and Google Gemini for intelligent, context-aware voice responses about real estate properties in Tamil language.',
+      technologies: ['Python', 'Gemini', 'RAG', 'ElevenLabs'],
+      link: '#',
+      github: '#',
+    },
     {
-      id: 6,
+      id: 7,
       title: 'Logistic Optimization',
       img: IMG6,
       description:
@@ -71,16 +83,7 @@ const Portfolio = () => {
       link: '#',
       github: '#',
     },
-    {
-      id: 7,
-      title: 'Car Park Counter - CV',
-      img: IMG7,
-      description:
-        'Developed a real-time car park counter using Computer Vision (CV) to detect and track available parking spaces in a parking lot. The system processes video feeds to identify occupied and vacant parking spots, providing a live count of available spaces.',
-      technologies: ['Opencv(cv2)', 'Numpy', 'Pickle', 'cvZone'],
-      link: '#',
-      github: '#',
-    },
+   
   ];
 
   return (
