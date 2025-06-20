@@ -11,7 +11,10 @@ const Footer = () => {
   
   return (
     <footer>
-      <a href="#home" className="footer__logo"></a>
+      <a href="#home" className="footer__logo" aria-label="Back to top">
+        {/* You can add a logo image or text here */}
+        <span className="sr-only">Back to top</span>
+      </a>
       
       <ul className="permalinks">
         <li><a href="#home">Home</a></li>
